@@ -1,0 +1,12 @@
+*.*
+*
+!.gitignore
+!build
+!debug
+!dist
+!include
+!nbproject
+!src
+
+!Makefile
+!README.md
