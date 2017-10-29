@@ -1,3 +1,15 @@
+/**
+ * 
+ * CHANGES 2017/04/XX:
+ *  - added PIC18F14K50; but no interrupts yet
+ *
+ * 
+ * FMMT666(ASkr)
+ * www.askrprojects.net
+ *  
+ */
+
+
 /*
  * USB CDC ACM Demo Configuration
  *

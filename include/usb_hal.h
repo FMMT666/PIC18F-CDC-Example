@@ -1,3 +1,14 @@
+/**
+ * 
+ * CHANGES 2017/04/XX:
+ *  - added PIC18F14K50; USB status register; buffer address
+ *
+ * 
+ * FMMT666(ASkr)
+ * www.askrprojects.net
+ *  
+ */
+
 /*
  *  M-Stack Hardware Abstraction
  *  Copyright (C) 2013 Alan Ott <alan@signal11.us>

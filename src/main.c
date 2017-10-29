@@ -21,11 +21,13 @@
 
 #include "usb.h"
 #include <xc.h>
+#include <stdint.h>
 #include <string.h>
+
 #include "usb_config.h"
 #include "usb_ch9.h"
 #include "usb_cdc.h"
-#include "hardware.h"
+#include "pic_init.h"
 
 #ifdef MULTI_CLASS_DEVICE
 static uint8_t cdc_interfaces[] = { 0 };
@@ -47,7 +49,7 @@ static void send_string_sync(uint8_t endpoint, const char *str)
 int main(void)
 {
 
-    hardware_init();
+    PIC_Init();
 
 #ifdef MULTI_CLASS_DEVICE
 	cdc_set_interface_list(cdc_interfaces, sizeof(cdc_interfaces));

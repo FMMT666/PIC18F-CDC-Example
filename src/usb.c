@@ -1,3 +1,15 @@
+/**
+ * 
+ * CHANGES 2017/04/XX:
+ *  - added PIC18F14K50; ...
+ *
+ * 
+ * FMMT666(ASkr)
+ * www.askrprojects.net
+ *  
+ */
+
+
 /*
  *  M-Stack USB Device Stack Implementation
  *  Copyright (C) 2013 Alan Ott <alan@signal11.us>
